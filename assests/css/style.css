@@ -388,6 +388,15 @@ img {
     margin-bottom: var(--mb-4);
 }
 
+.control_input:focus{
+    outline: none;
+  box-shadow: 0 0 0 2px rgba(21, 156, 228, 0.4);
+}
+
+.control_input::placeholder{
+    color: #a9a9a9;
+}
+
 .control_button {
     display: block;
     border: none;
