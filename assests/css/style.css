@@ -291,7 +291,7 @@ img {
 /* Skills Section */
 
 .skills_container {
-    row-gap: 2rem;
+    row-gap: 0.2rem;
     text-align: center;
 }
 
@@ -309,7 +309,7 @@ img {
     position: relative;
     align-items: center;
     font-weight: var(--font-semi);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.1rem;
     margin-bottom: var(--mb-4);
     border-radius: 0.5rem;
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -351,6 +351,42 @@ img {
     width: 75%;
 }
 
+/* experience section */
+/* Experience Section Styling */
+.experience {
+    padding: 40px 20px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.experience-item span {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.experience-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-list li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
 /* Work section */
 
 .work {
@@ -374,6 +410,36 @@ img {
 
 .work_img img:hover {
     transform: scale(1.1);
+}
+
+/* Certification section */
+.certifications {
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for a softer look */
+    margin: 20px 0; /* Space above and below the section */
+    margin-left: 15rem;
+}
+
+.section-title {
+    font-size: 24px; /* Large title font */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.certification-list {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.certification-item {
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space between items */
+}
+
+.certification-badge {
+    width: 50px; /* Fixed width for badges */
+    height: 50px; /* Fixed height for badges */
+    margin-right: 10px; /* Space between badge and text */
 }
 
 /* Contact section */
@@ -406,6 +472,7 @@ img {
     margin-left: auto;
 }
 
+
 /* footer */
 
 .footer {
@@ -429,7 +496,6 @@ img {
 
 .footer_icon {
     font-size: 1.5rem;
-    color: #fff;
     margin: 0 var(--mb-2);
 }
 
